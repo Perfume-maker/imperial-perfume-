@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Imperial Perfume Collections</title>
+  <style>
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1e1e2f;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e3c77e;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #e3c77e;
+}
+
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #aaf;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #44f;
+}
+
+  .section h3 {
+    color: red;
+  }
+  
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+  
+  .price-box {
+  margin-top: 10px;
+  line-height: 1.4;
+  }
+  
+    .old-price {
+      color: gray;
+      text-decoration: line-through;
+      margin-right: 5px;
+    }
+
+    .discount {
+      color: red;
+      margin-left: 0px;
+    }
+
+    .new-price {
+      color: green;
+      font-weight: bold;
+      font-size: 20px;
+      margin-top: 2px;
+    }
+
+.contact p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+  
+footer {
+  background-color: #1e1e2f;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+
+ </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Imperial Perfume Collections</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Luxury. Unique. Elegance. Identity.</h1>
+      <p>Nukia Upendeze Wewe</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+     <p>
+      Imperial Perfume Collections is a Tanzanian Sellers of branding perfume that
+     is affordable and long-lasting designer-inspired fragrances.inorder to brings
+      you Personality(Unique), Elegance and identity.
+     </p>
+    <img src="shop.jpg" alt="perfume shop">
+        
+    <h2>Marketing Approach</h2>
+     <p>
+      At Imperial Perfume Collections, we reach our customers 
+      through digital platforms like Instagram, WhatsApp, and 
+      local beauty events. We use eye-catching visuals, word-of-mouth, 
+      and seasonal promotions to grow our brand awareness.
+    </p>
+  </section>
+  
+   <section id="products" class="section">
+    <h2>Our Products</h2>
+   <div class="product-grid">
+     <div class="product">
+        <img src="perfume1.jpg" alt="Perfume bottle 1">
+        <h3>Badee al Oud</h3>
+        <p>100mlperfume, Woody, luxurious, and long-lasting.</p>
+       <div class="price-box">
+         <span class="old-price">$70</span><span class="discount">| 28% OFF</span>
+         <div class="new-price">Price: $42</div>
+       </div>
+     </div>
+          
+      <div class="product">
+        <img src="perfume2.jpg" alt="Perfume bottle 2">
+        <h3>Asad Lattafa</h3>
+        <p>100mlperfume, Soft, romantic, and feminine.</p>
+      <div class="price-box">
+       <span class="old-price">$65</span><span class="discount">| 15% OFF</span>
+       <div class="new-price">Price: $50</div>
+      </div>
+    </div>
+        
+    <div class="product">
+        <img src="perfume3.jpg" alt="Perfume bottle 3">
+        <h3>Club de nuit</h3>
+        <p>100mlperfume, Bold, sensual, and mysterious.</p>
+      <div class="price-box">
+       <span class="old-price">$95</span><span class="discount">| 35% OFF</span>
+       <div class="new-price">Price: $60</div>
+      </div>
+    </div>
+      
+    <div class="product">
+        <img src="perfume4.jpg"  alt="perfume bottle 4">
+        <h3>Pink Scandal</h3>
+        <p>100mlperfume, Sex Women and sweet floral</p>
+      <div class="price-box">
+       <span class="old-price">$85</span><span class="discount">| 30% OFF</span>
+       <div class="new-price">Price: $55</div>
+      </div>
+    </div>
+      
+    <div class="product">
+        <img src="perfume5.jpg"  alt="perfume bottle 5">
+        <h3>Raed Lattafa</h3>
+        <p>Luxe for Men and Women, sweet Lavender 100ml</p>
+       <div class="price-box">
+         <span class="old-price">$90</span><span class="discount">| 30% OFF</span>
+         <div class="new-price">Price: $60</div>
+       </div>
+    </div>
+        
+       <div class="product">
+        <img src="perfume6.jpg"  alt="perfume bottle 6">
+        <h3>Khamrah Dukhan</h3>
+        <p>100mlperfume, Unisex, sweet floral and Luxurious</p>
+        <div class="price-box">
+         <span class="old-price">$70</span><span class="discount">| 25% OFF</span>
+         <div class="new-price">Price: $45</div>
+        </div>
+      </div>
+</section>
+     
+  <section id="about" class="section">
+    <h2>Supplier & Delivery System</h2>
+      <p>
+        Not: We offer free delivery within Dar es Salaam and outside the region for customers
+        who purchase 10 or more bottles of perfume. Our Supplier team We use reliable delivery 
+        methods(Logistic) to ensure that our perfumes are always fresh, well-packaged, and delivered on time.
+      </p>
+      <img src="delivery1.jpg" alt="Delivery van or supplier image">   
+  </section>
+      
+<section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <p>📞 0621 817 471 | 📍 KariaKoo-Dar es Salaam, Tanzania</p>
+    <p>📷 Instagram: @imperial.perfume</p>
+</section>
+
+  <footer>
+    <p>© 2025 Imperial Perfume Collections. All rights reserved.</p>
+  </footer>
+</body>
+</html>
